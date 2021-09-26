@@ -1,0 +1,17 @@
+.calc {
+  background-color: aquamarine;
+  padding: 16px;
+  border: 1px solid lightblue;
+
+  &__button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lightblue;
+    }
+  }
+}
