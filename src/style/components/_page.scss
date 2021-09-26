@@ -1,31 +1,31 @@
 .page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
 }
 
 .decoration {
-  position: relative;
-  overflow: hidden;
+	position: relative;
+	overflow: hidden;
 
-  &__circle {
-    position: absolute;
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
+	&__circle {
+		position: absolute;
+		width: 50vw;
+		height: 50vw;
+		border-radius: 50%;
 
-    &_light {
-      background-color: aquamarine;
-      right: -20%;
-      top: -20%;
-    }
+		&_light {
+			background-color: aquamarine;
+			right: -20%;
+			top: -20%;
+		}
 
-    &_dark {
-      background-color: darkslategrey;
-      left: -20%;
-      bottom: -20%;
-    }
-  }
+		&_dark {
+			background-color: darkslategrey;
+			left: -20%;
+			bottom: -20%;
+		}
+	}
 }
